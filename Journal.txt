@@ -1,0 +1,3 @@
+Today we were introduced to the language HTML, which is used to create webpages.
+We learned how to use brackets and other key terms such as header, body, and title.
+This will eventually help us create a webpage that allows input from users for our databases.
