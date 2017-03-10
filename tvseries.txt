@@ -1,12 +1,37 @@
+
 <!DOCTYPE html>
 <html>
   <head>
+    <link type="text/css" rel="stylesheet" href="Stylesheet.css">
     <title>TV Series</title>
   </head>
-  <form>
-    First name:<br>
-    <input type="text" name="firstname"><br>
-    Last name:<br>
-    <input type="text" name="lastname">
-  </form>
+  <body>
+      <!-- <h1>New Series</h1>
+      Series Title:<br>
+      <input type="text" name="title"><br>
+      Series Year:<br>
+      <input type="number" name="year" min=1><br>
+      Series Language:<br>
+      <input type="text" name="language"><br>
+      Series Budget:<br>
+      <input type="number" name="budget" min=1><br>
+      Network Name:<br>
+      <input type="text" name="name"><br>
+      Network Location:<br>
+      <input type="text" name="location"><br><br>
+      <input type="submit" name="Submit">
+      <input type="reset"> -->
+      <div class="form-style-2">
+      <div class="form-style-2-heading">Provide Information of the Series and Network</div>
+      <form action="" method="post">
+      <label for="field1"><span>Series Title <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+      <label for="field2"><span>Series Year <span class="required">*</span></span><input type="number" class="input-field" name="field2" min=1 /></label>
+      <label for="field3"><span>Series Language <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
+      <label for="field4"><span>Series Budget <span class="required">*</span></span><input type="number" class="input-field" name="field4" min=1 /></label>      
+      <label for="field5"><span>Network Name <span class="required">*</span></span><input type="text" class="input-field" name="field5" value="" /></label>
+      <label for="field6"><span>Network Location <span class="required">*</span></span><input type="text" class="input-field" name="field6" value="" /></label>
+      <label for="field7"><span>&nbsp;</span><input type="submit" value="Submit" /></label> <label for="field8"><span>&nbsp;</span><input type="reset" /></label>
+      </form>
+      </div>
+  </body>
 </html>
